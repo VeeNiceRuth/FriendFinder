@@ -15,9 +15,20 @@
   <body>
     <h1 class="display-1 text-center">FriendFinder Survey</h1>
 
+<h2>About You</h2>
+<h5>Name (Required)</h5>
+<input type="text" id="name" class="form-control" required>
+<h5>Link to Photo (Required)</h5>
+<input type="text" id="photo" class="form-control" required>
+
+
+
+
+
     <div class="alert alert-warning" role="alert">
         Q1: Do you like long walks on the beach?
       </div>
+
     <div class="form-check form-check">
         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
         <label class="form-check-label" for="inlineCheckbox1">1 (F***k NO!!)</label>
@@ -43,6 +54,7 @@
       <div class="alert alert-warning" role="alert">
         Q2: How likely are you to kill a bee that has stung your friend?
       </div>
+      
     <div class="form-check form-check">
         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
         <label class="form-check-label" for="inlineCheckbox1">1 (nah bees are friends, get over it!) </label>
@@ -259,8 +271,20 @@
       </div>
       <div class="form-check form-check">
         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option5">
-        <label class="form-check-label" for="inlineCheckbox5">5 (Debt Free)</label>
+        <label class="form-check-label" for="inlineCheckbox5">5 (Immunity to debt)</label>
       </div>
+<br>
+
+<a href="/">
+      <button type="button" class="btn btn-outline-warning btn-lg btn-block">Submit</button> </a>
+
+      <br>
+      <br>
+      <footer class="footer">
+            <a href="/api/friends">API Friends list</a>
+            |
+            <a href="">GitHub Repo</a>
+            </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

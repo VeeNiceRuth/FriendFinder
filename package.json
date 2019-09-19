@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Homework 13",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeeNiceRuth/FriendFinder.git"
+  },
+  "author": "Ruth Vazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeeNiceRuth/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/VeeNiceRuth/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
